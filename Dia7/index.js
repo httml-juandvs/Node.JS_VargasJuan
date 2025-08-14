@@ -76,7 +76,7 @@ function listItems() {
         console.log("No hay Personas.");
     } else {
         data.forEach((item, index) => {
-            console.log(`${index + 1}. ID: ${item.id}, Nombre: ${item.nombre}`);
+            console.table(`${index + 1}. ID: ${item.id}, Nombre: ${item.nombre}`);
         });
     }
 } 
